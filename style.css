@@ -3,7 +3,6 @@
 *{
     margin: 0;
     padding: 0;
-    max-width: 100%;
 }
 
 html{
@@ -11,8 +10,8 @@ html{
 }
 
 body{
-    background-color: rgb(153, 94, 255);
-    overflow-x: hidden;
+    position: relative;
+    background: linear-gradient(141deg ,rgb(87, 177, 245) 0% , rgb(195, 9, 246) 40% , rgb(246, 111, 242) 90%);
 }
 
 .logo{
@@ -62,14 +61,14 @@ body{
 }
 
 .rightNav{
-    width: 30%;
+    width: 50%;
     text-align: right;
     padding: 0 10px;
 }
 
 #search{
     font-size: 17px;
-    padding: 5px;
+    padding: 3px 0;
 }
 
 .background{
@@ -96,7 +95,7 @@ body{
 }
 
 .firstHalf{
-    width: 200%;
+    width: 95%;
     display: flex;
     padding-left: 0.5rem;
     flex-direction: column;
@@ -104,7 +103,7 @@ body{
     align-items: center;
 }
 .secondHalf{
-    width: 75%;
+    width: 50%;
     text-align: center;
 }
 
@@ -115,11 +114,11 @@ body{
 }
 
 .text-big{
-    font-size: 2.2rem;
+    font-size: 2rem;
     margin: 12px;
 }
 .text-small{
-    font-size: 1.3rem;
+    font-size: 1.25rem;
 }
 
 .btn{
@@ -139,7 +138,7 @@ body{
     margin: 15px; 
 }
 .buttondiv :hover{
-    background-color: rgb(237, 55, 23);
+    background-color: rgb(255, 0, 0);
     color: white;
 }
 
@@ -180,7 +179,8 @@ body{
 }
 
 .contact{
-    background-color: rgb(94, 156, 165);
+    background: linear-gradient(141deg ,rgba(52, 210, 249, 0.547) 0% , rgba(47, 54, 255, 0.612) 50% , rgba(33, 198, 231, 0.673) 90%);
+
     height: 100%;
     padding: 1.5rem 0;
     display: flex;
@@ -281,8 +281,8 @@ body{
         width: 80%;
     }
     #search{
-        width: 50%;
-        height: 8px;
+        width: 70%;
+        height: 10px;
     }
     .firstSection{
         height: 100%;
